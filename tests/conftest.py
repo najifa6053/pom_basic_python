@@ -5,12 +5,13 @@ from selenium.webdriver.common.by import By
 from selenium import webdriver
 from pages.login_page import LoginPage
 from pages.inventory_page import Inventory
+from pages.product_page import ProductPage
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 
 
-# Set up logger
+
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
     
